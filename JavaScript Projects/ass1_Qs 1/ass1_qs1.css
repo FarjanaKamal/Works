@@ -1,0 +1,16 @@
+body {
+    
+    font-size: 22px;
+}
+
+.box{
+    border-style: solid;
+    width: 35em;
+    height: 30em;
+    padding-left: 0.5em;
+    
+}
+
+.title{
+    font-size: 32px;
+}
