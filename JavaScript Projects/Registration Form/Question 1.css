@@ -1,0 +1,99 @@
+body
+{
+    background-color:rgb(39, 35, 35);
+    font-family: "Lucida Sans", Verdana, Arial, sans-serif
+}
+    
+form{
+    background-color:#dddad8;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 0.5em;
+    padding: 0.8em;
+}
+#Message{
+    background-color:#dddad8;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color:rgb(39, 35, 35);
+    font-size: 11pt;
+    display: none;
+}
+h2{
+    font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+    text-align: center;
+    font-size: 30pt;
+    color:rgb(39, 35, 35)
+}
+hr{
+    width: 90%;
+}
+.login{
+    margin-top: 1em;
+    margin-left: 3em;
+    padding: 0.2em;
+}
+.fields{
+    padding: 0.2em;
+}
+#icon{
+    margin-top: 0.5em;
+    background-color: rgb(240, 71, 10);
+    text-align: center;
+    color:white;
+    width: 60px;
+    height: 45px;
+    float: left;
+    border-bottom-left-radius: 00.5em;
+    border-top-left-radius: 00.5em;
+    font-size: larger;
+}
+#font{
+    padding: 0.5em;
+}
+.icon{
+    margin-top: 0.5em;
+    background-color: rgb(240, 71, 10);
+    text-align: center;
+    color:white;
+    width: 60px;
+    height: 45px;
+    float: left;
+    border-bottom-left-radius: 00.5em;
+    border-top-left-radius: 00.5em;
+    font-size: larger;
+}
+
+.tb,.RequiredField{
+    width: 60%;
+    padding: 1.5em;
+    
+    border-bottom-right-radius: 00.5em;
+    border-top-right-radius: 00.5em;
+}
+*:focus {
+    outline: none;
+}
+.Register{
+    margin-left: 8em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.btn{
+    width: 65%;
+    height: 40px;
+    padding: 1em;
+    background-color: rgb(77, 180, 221);
+    text-emphasis-color: white;
+    color:white;
+    font-weight: bold;
+    font-size:medium;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 2px 2px rgb(31, 81, 156);
+    border-color: black;
+}
+#share{
+        transform: rotateY(180deg);
+}

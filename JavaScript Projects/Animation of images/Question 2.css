@@ -1,0 +1,30 @@
+div { 
+    width: 100%; 
+} 
+.Gray { 
+    -webkit-filter: grayscale(100%); 
+    -webkit-transition: -webkit-filter 1.5s; 
+    filter: grayscale(100%); 
+    transition: filter 1.5s; 
+} 
+.Normal { 
+    -webkit-filter: none; 
+    -webkit-transition: -webkit-filter 1.5s; 
+    filter: none; 
+    transition: filter 1.5s; 
+}
+.Image-box{
+    border:1px solid black;
+    width: 30%;
+    padding: 1em;
+    height:auto;
+    display: none;
+    background-color: rgb(37, 36, 36);
+  }
+.Image-preview{
+    width:100%;
+}
+.caption{
+    color: white;
+    text-align: center;
+}
