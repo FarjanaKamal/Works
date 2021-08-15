@@ -32,7 +32,7 @@ namespace Class_Inheritance_And_Polymorphism
         }
         public override void Display()
         {
-            System.Windows.Forms.MessageBox.Show("Production worker :" + EmpName+" " + "Number:" + EmpNumber + "Shift Type: " + shift+" " + "Hourly Pay Rate" +HourlyPayRate + " " );
+            System.Windows.Forms.MessageBox.Show("Employee Name: " + EmpName+"\n" + "Number: " + EmpNumber + "\n" + "Shift Type: " + shift+"\n" + "Hourly Pay Rate:" +HourlyPayRate+"\n"+ "Position: Production Worker");
         }
     }
 

@@ -102,7 +102,6 @@ namespace Class_Inheritance_And_Polymorphism
             this.Controls.Add(this.EmpName);
             this.Name = "EmployeeADD";
             this.Text = "EmployeeADD";
-            this.Load += new System.EventHandler(this.EmployeeADD_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

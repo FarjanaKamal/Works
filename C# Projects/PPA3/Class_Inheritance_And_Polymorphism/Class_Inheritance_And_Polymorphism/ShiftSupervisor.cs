@@ -35,7 +35,7 @@ namespace Class_Inheritance_And_Polymorphism
     }
     public override void Display()
         {
-            System.Windows.Forms.MessageBox.Show("Shift Super Visor Name:"+EmpName+"Number:"+EmpNumber+"Shift Type: "+shift+ "Annual Salary:"+AnnualSalary+ "Annual Production Bonus: "+AnnualProductionBonus);
+            System.Windows.Forms.MessageBox.Show("Employee Name: "+EmpName+"\n"+"Number: "+EmpNumber+ "\n" + "Shift Type: " +shift+ "\n" + "Annual Salary: " +AnnualSalary+ "\n"+"Annual Production Bonus: "+AnnualProductionBonus+"\n" +"Position: Shift Supervisor");
         }
 
     }

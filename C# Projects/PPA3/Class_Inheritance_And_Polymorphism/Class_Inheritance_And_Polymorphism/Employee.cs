@@ -11,7 +11,7 @@ namespace Class_Inheritance_And_Polymorphism
         public Employee()
         {
             EmpName = "";
-            EmpNumber = 10;
+            EmpNumber = -1;
         }
         public Employee(string name, int number)
         {
@@ -30,7 +30,7 @@ namespace Class_Inheritance_And_Polymorphism
         }
         public virtual void Display()
         {
-            System.Windows.Forms.MessageBox.Show("Employee Name:" + EmpName +" " + "Number:" + EmpNumber + " " );
+            System.Windows.Forms.MessageBox.Show(" Employee Name: " + EmpName+"\n" + " Number: " + EmpNumber );
         }
     }
 }

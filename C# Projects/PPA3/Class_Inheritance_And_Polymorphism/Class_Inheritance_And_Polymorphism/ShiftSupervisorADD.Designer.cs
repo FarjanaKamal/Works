@@ -40,13 +40,14 @@ namespace Class_Inheritance_And_Polymorphism
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_Add_ShiftSupervisor
             // 
-            this.Btn_Add_ShiftSupervisor.Location = new System.Drawing.Point(298, 321);
+            this.Btn_Add_ShiftSupervisor.Location = new System.Drawing.Point(236, 306);
             this.Btn_Add_ShiftSupervisor.Name = "Btn_Add_ShiftSupervisor";
-            this.Btn_Add_ShiftSupervisor.Size = new System.Drawing.Size(75, 23);
+            this.Btn_Add_ShiftSupervisor.Size = new System.Drawing.Size(92, 43);
             this.Btn_Add_ShiftSupervisor.TabIndex = 0;
             this.Btn_Add_ShiftSupervisor.Text = "ADD";
             this.Btn_Add_ShiftSupervisor.UseVisualStyleBackColor = true;
@@ -133,11 +134,22 @@ namespace Class_Inheritance_And_Polymorphism
             this.comboBox1.Size = new System.Drawing.Size(222, 24);
             this.comboBox1.TabIndex = 11;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(366, 306);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(92, 43);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Exit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // ShiftSupervisorADD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(611, 390);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -170,5 +182,6 @@ namespace Class_Inheritance_And_Polymorphism
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button1;
     }
 }

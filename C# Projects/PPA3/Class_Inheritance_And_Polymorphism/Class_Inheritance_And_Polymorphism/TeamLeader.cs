@@ -39,7 +39,7 @@ namespace Class_Inheritance_And_Polymorphism
         }
         public override void Display()
         {
-            System.Windows.Forms.MessageBox.Show("Team Leader Name:" + EmpName + "Number:" + EmpNumber + "Shift Type: " + shift + "Monthly Bonus:" + MonthlyBonusAmount + "Required number of training hours.: " + RequiredNumberofTrainingHours+ "The number of training hours attended: " +TheNumberofTrainingHoursAttended);
+            System.Windows.Forms.MessageBox.Show("Employee Name:" + EmpName +"\n"+ "Number:" + EmpNumber+"\n"  + "Shift Type: " + shift + "\n" + "Hour Pay Rate:" +HourlyPayRate+ "\n" + "Monthly Bonus:" + MonthlyBonusAmount + "\n" + "Required number of training hours.: " + RequiredNumberofTrainingHours+ "\n" + "The number of training hours attended: " +TheNumberofTrainingHoursAttended+ "\n" +"Position: Team Leader");
         }
     }
 }

@@ -38,6 +38,7 @@ namespace Class_Inheritance_And_Polymorphism
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.BTN_ChangeToTeamLeader = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -108,7 +109,7 @@ namespace Class_Inheritance_And_Polymorphism
             // 
             // BTN_ChangeToTeamLeader
             // 
-            this.BTN_ChangeToTeamLeader.Location = new System.Drawing.Point(619, 272);
+            this.BTN_ChangeToTeamLeader.Location = new System.Drawing.Point(580, 255);
             this.BTN_ChangeToTeamLeader.Name = "BTN_ChangeToTeamLeader";
             this.BTN_ChangeToTeamLeader.Size = new System.Drawing.Size(75, 37);
             this.BTN_ChangeToTeamLeader.TabIndex = 8;
@@ -116,11 +117,22 @@ namespace Class_Inheritance_And_Polymorphism
             this.BTN_ChangeToTeamLeader.UseVisualStyleBackColor = true;
             this.BTN_ChangeToTeamLeader.Click += new System.EventHandler(this.BTN_ChangeToTeamLeader_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(661, 255);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 37);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Exit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // ProductionWorkerChangesTeamLeader
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BTN_ChangeToTeamLeader);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -149,5 +161,6 @@ namespace Class_Inheritance_And_Polymorphism
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button BTN_ChangeToTeamLeader;
+        private System.Windows.Forms.Button button1;
     }
 }

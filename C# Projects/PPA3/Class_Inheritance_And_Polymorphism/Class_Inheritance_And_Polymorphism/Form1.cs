@@ -21,6 +21,7 @@ namespace Class_Inheritance_And_Polymorphism
         public static List<Employee> CompanyEmployees = new List<Employee>();
         public static List<ProductionWorker> CompanyEmployeesASProductionWorker = new List<ProductionWorker>();
         public static List<ShiftSupervisor> CompanyShiftSupervisor = new List<ShiftSupervisor>();
+        public static List<TeamLeader> CompanyTeamLeader = new List<TeamLeader>();
         public static string EmployeeName;
         public static int EmployeeNumber;
         public static double WorkerPayRate;
@@ -72,11 +73,32 @@ namespace Class_Inheritance_And_Polymorphism
             }
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            /*listView1.View = View.Details;
+            listView1.Columns.Add("Name");
+            listView1.Columns.Add("Number");*/
+            foreach (Employee emp in CompanyEmployees)
+            {
+                emp.Display();
+            }    
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            foreach (TeamLeader emp in CompanyTeamLeader)
+            {
+                emp.Display();
+
+            }
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             foreach (ProductionWorker emp in CompanyEmployeesASProductionWorker)
             {
-                emp.Display();
+              emp.Display();
+              
             }
         }
     }

@@ -11,22 +11,12 @@ using System.Windows.Forms;
 namespace Class_Inheritance_And_Polymorphism
 {
     public partial class EmployeeADD : Form
-    {
-        //List<Employee> Employees;
-        
+    {        
         int value;
         public EmployeeADD()
         {
             InitializeComponent();
-            //Employees = EmpList;
         }
-       
-        private void EmployeeADD_Load(object sender, EventArgs e)
-        {
-           
-            
-        }
-
         private void button2_Click(object sender, EventArgs e)
 
         {
@@ -35,13 +25,20 @@ namespace Class_Inheritance_And_Polymorphism
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (EmpName.Text!="" && int.TryParse(EmpNum.Text, out value))
+            {
+                Form1.EmployeeName = EmpName.Text;
+                Form1.EmployeeNumber = value;
+                Employee Emp = new Employee();
+                Emp = new Employee(Form1.EmployeeName, Form1.EmployeeNumber);
+                Form1.CompanyEmployees.Add(Emp);
+            }
+            else
+            {
+                MessageBox.Show("PLEASE FILL ALL FIELDS", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             
-            Form1.EmployeeName = EmpName.Text;
-            int.TryParse(EmpNum.Text, out value);
-            Form1.EmployeeNumber = value;
-            Employee Emp = new Employee();
-            Emp = new Employee(Form1.EmployeeName, Form1.EmployeeNumber);
-            Form1.CompanyEmployees.Add(Emp);
+
         }
     }
 }
