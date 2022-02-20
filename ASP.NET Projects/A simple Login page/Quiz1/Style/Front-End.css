@@ -1,0 +1,13 @@
+﻿#NavBar{
+    background-color:mediumpurple;
+    text-decoration-color:black;
+}
+#NavBar a{
+    color:white;
+}
+#login-signup,{
+    float: right;
+}
+#search {
+    float: right;
+}
