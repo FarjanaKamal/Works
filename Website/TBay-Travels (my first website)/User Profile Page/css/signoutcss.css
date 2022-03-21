@@ -1,0 +1,14 @@
+.signout{
+    background-color: #d5ecc2;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    width: 35%;
+    border: 1px solid;
+    padding: 10px;
+    margin: 20px;
+}
+.signout h1{
+    font-family: 'Merriweather', serif;    
+}

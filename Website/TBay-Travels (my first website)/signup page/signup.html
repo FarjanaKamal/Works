@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TBay Travels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="logo1.png" alt="logo" />
+            <h1><span> TBay</span> Travels</h1>
+            <ul>
+                <li><a href="../Index Page/index.html">Home</a></li>
+                <li><a href="../About Us/About US.html">About</a></li>
+                <li><a href="../ContactUs/Contact Us.html">Contact</a></li>
+                <li><a href="../Post/post.html">Post</a></li>
+                <li class="active"><a href="../Login Page/login.html">Login/Register</a></li>
+            </ul>
+        </div>
+        <div class="htext">
+            <p>Lets visit some places</p>
+        </div>
+    </header>
+    <main>
+        <div class="login">
+            <form class="signup-form" action="../User Profile Page/Profile.html" method="post">
+                <fieldset>
+                    <legend> Create Account</legend>
+                    <div class="form-body">
+                        <!-- User name-->
+                        <div class="horizontal-group">
+                            <label for="User name" class="label-title">User name* </label>
+                            <input type="text" id="Username" class="form-input" placeholder="enter user name" required="required" />
+                        </div>
+                    </div>
+                    <div class="form-body">
+                        <!-- Firstname and Lastname -->
+                        <div class="horizontal-group">
+                            <div class="form-group left">
+                                <label for="firstname" class="label-title">First name*</label>
+                                <input type="text" id="firstname" class="form-input" placeholder="enter your first name" required="required" />
+                            </div>
+                            <div class="form-group right">
+                                <label for="lastname" class="label-title">Last name*</label>
+                                <input type="text" id="lastname" class="form-input" placeholder="enter your last name" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-body">
+                        <div class="horizontal-group">
+                            <div class="form-group left">
+                                <label for="email" class="label-title">Email*</label>
+                                <input type="email" id="email" class="form-input" placeholder="enter your email" required="required" />
+                            </div>
+                            <div class="form-group right">
+                                <label for="Phone" class="label-title">Phone*</label>
+                                <input type="text" id="phone" class="form-input" placeholder="e.g. +1 011 111 000" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Passwrod and confirm password -->
+                    <div class="form-body">
+                        <div class="horizontal-group">
+                            <div class="form-group left">
+                                <label for="password" class="label-title">Password *</label>
+                                <input type="password" id="password" class="form-input" placeholder="enter your password" required="required" />
+                            </div>
+                            <div class="form-group right">
+                                <label for="confirm-password" class="label-title">Confirm Password *</label>
+                                <input type="password" class="form-input" id="confirm-password" placeholder="enter your password again" required="required" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-body">
+                        <div class="horizontal-group">
+                            <div class="form-group left">
+                                <label for="Address" class="label-title">Address *</label>
+                                <input type="text" id="Address" class="form-input" placeholder="unit no, street name" required="required" />
+                            </div>
+                            <div class="form-group right">
+                                <label for="Zip Code" class="label-title">Zip Code *</label>
+                                <input type="text" class="form-input" id="Zip Code" placeholder="enter 6 digit code" required="required" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-body">
+                        <div class="horizontal-group">
+                            <div class="form-group left">
+                                <label for="Date of Birth" class="label-title">Date of Birth *</label>
+                                <input type="date" class="form-input" id="Date of Birth" required="required" />
+                            </div>
+                            <div class="form-group right">
+                                <label for="choose-file" class="label-title">Upload Profile Picture*</label>
+                                <input type="file" id="choose-file" size="80" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Enter">
+                        <input type="submit" value="Sign Up">
+                    </div>
+                </fieldset>
+            </form>
+            <div>
+    </main>
+    <footer>
+        <p><a href="../ContactUs/Contact Us.html"> Contact Us</a> | <a href="../FAQ&TC/faq.html">FAQ</a> |<a href="../FAQ&TC/terms.html"> Terms of use </a></p>
+        <p>&copy; 2021 TBay Travels All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>
