@@ -16,3 +16,21 @@ F:\Confederation\Second Semester\OOP with Net I\Test-1\Test_1_Programming\Test_1
 F:\Confederation\Second Semester\OOP with Net I\Test-1\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\ref\Test_1_Programming.dll
 F:\Confederation\Second Semester\OOP with Net I\Test-1\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\Test_1_Programming.pdb
 F:\Confederation\Second Semester\OOP with Net I\Test-1\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\Test_1_Programming.genruntimeconfig.cache
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\bin\Debug\net5.0-windows\Test_1_Programming.exe
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\bin\Debug\net5.0-windows\Test_1_Programming.deps.json
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\bin\Debug\net5.0-windows\Test_1_Programming.runtimeconfig.json
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\bin\Debug\net5.0-windows\Test_1_Programming.runtimeconfig.dev.json
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\bin\Debug\net5.0-windows\Test_1_Programming.dll
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\bin\Debug\net5.0-windows\ref\Test_1_Programming.dll
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\bin\Debug\net5.0-windows\Test_1_Programming.pdb
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\Test_1_Programming.csproj.AssemblyReference.cache
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\Test_1_Programming.Form1.resources
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\Test_1_Programming.csproj.GenerateResource.cache
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\Test_1_Programming.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\Test_1_Programming.AssemblyInfoInputs.cache
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\Test_1_Programming.AssemblyInfo.cs
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\Test_1_Programming.csproj.CoreCompileInputs.cache
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\Test_1_Programming.dll
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\ref\Test_1_Programming.dll
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\Test_1_Programming.pdb
+D:\GitHubWorks\Works\C# Projects\Calculator\Test_1_Programming\Test_1_Programming\obj\Debug\net5.0-windows\Test_1_Programming.genruntimeconfig.cache

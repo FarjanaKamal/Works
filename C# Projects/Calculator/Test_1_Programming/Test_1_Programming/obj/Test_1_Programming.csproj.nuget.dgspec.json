@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Confederation\\Second Semester\\OOP with Net I\\Test-1\\Test_1_Programming\\Test_1_Programming\\Test_1_Programming.csproj": {}
+    "D:\\GitHubWorks\\Works\\C# Projects\\Calculator\\Test_1_Programming\\Test_1_Programming\\Test_1_Programming.csproj": {}
   },
   "projects": {
-    "F:\\Confederation\\Second Semester\\OOP with Net I\\Test-1\\Test_1_Programming\\Test_1_Programming\\Test_1_Programming.csproj": {
+    "D:\\GitHubWorks\\Works\\C# Projects\\Calculator\\Test_1_Programming\\Test_1_Programming\\Test_1_Programming.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Confederation\\Second Semester\\OOP with Net I\\Test-1\\Test_1_Programming\\Test_1_Programming\\Test_1_Programming.csproj",
+        "projectUniqueName": "D:\\GitHubWorks\\Works\\C# Projects\\Calculator\\Test_1_Programming\\Test_1_Programming\\Test_1_Programming.csproj",
         "projectName": "Test_1_Programming",
-        "projectPath": "F:\\Confederation\\Second Semester\\OOP with Net I\\Test-1\\Test_1_Programming\\Test_1_Programming\\Test_1_Programming.csproj",
+        "projectPath": "D:\\GitHubWorks\\Works\\C# Projects\\Calculator\\Test_1_Programming\\Test_1_Programming\\Test_1_Programming.csproj",
         "packagesPath": "C:\\Users\\farja\\.nuget\\packages\\",
-        "outputPath": "F:\\Confederation\\Second Semester\\OOP with Net I\\Test-1\\Test_1_Programming\\Test_1_Programming\\obj\\",
+        "outputPath": "D:\\GitHubWorks\\Works\\C# Projects\\Calculator\\Test_1_Programming\\Test_1_Programming\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\farja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
